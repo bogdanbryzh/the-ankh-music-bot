@@ -5,7 +5,7 @@
   "main": "dist/main.js",
   "scripts": {
     "start": "node dist/main.js",
-    "prestart": "tsc"
+    "prestart": "yarn tsc"
   },
   "repository": "git@github.com:bogdanbpeterson/the-ankh-music-bot.git",
   "author": "Bogdan B Peterson <bogdan.bryzh@gmail.com>",
