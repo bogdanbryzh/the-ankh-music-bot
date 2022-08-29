@@ -1,0 +1,22 @@
+{
+  "name": "the-ankh-music-bot",
+  "version": "1.0.0",
+  "description": "Simple poster to https://t.me/the_ankh_music",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "prestart": "tsc"
+  },
+  "repository": "git@github.com:bogdanbpeterson/the-ankh-music-bot.git",
+  "author": "Bogdan B Peterson <bogdan.bryzh@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.59.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.13",
+    "@types/node-telegram-bot-api": "^0.57.1",
+    "typescript": "^4.8.2"
+  }
+}
+
